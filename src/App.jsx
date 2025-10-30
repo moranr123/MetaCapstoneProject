@@ -1,10 +1,17 @@
 import React from "react";
+import Header from "./components/Header.jsx";
+import Nav from "./components/Nav.jsx";
+import Footer from "./components/Footer.jsx";
+import Main from "./components/Main.jsx";
 
 
 function App() {  return (
-    <div className="App">
-      <h1>Welcome to MetaCapstone</h1>
-    </div>
+    <>
+      <Nav />
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
